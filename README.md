@@ -1,0 +1,1 @@
+# van-companion-translations
