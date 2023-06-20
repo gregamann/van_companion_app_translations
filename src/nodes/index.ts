@@ -1,6 +1,6 @@
-import * as authentication from './authentication'
-import * as map from './map'
-import * as settings from './settings'
+import authentication from './authentication'
+import map from './map'
+import settings from './settings'
 
 export default {
   authentication,
