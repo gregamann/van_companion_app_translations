@@ -1,6 +1,6 @@
 {
   "name": "@gregamann/van_companion_app_translations",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
