@@ -1,12 +1,9 @@
 import global from './global'
 import nodes from './nodes'
 
-const availableLanguages = ['en', 'fr']
+export const availableLanguages = ['en', 'fr'] as const
 
-export default {
-  availableLanguages,
-  translations: {
-    global,
-    nodes,
-  },
+export const translations = {
+  global,
+  nodes,
 }
