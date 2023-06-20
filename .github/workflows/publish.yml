@@ -1,0 +1,50 @@
+name: Publish package
+
+on:
+  push:
+    branches: ['main']
+
+concurrency:
+  group: publish
+  cancel-in-progress: true
+
+jobs:
+  publish:
+    name: Publish package
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📦 Checkout project repo
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 📦 Create .npmrc file
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16.x'
+          registry-url: 'https://npm.pkg.github.com'
+          scope: '@gregamann'
+
+      - name: 📦 Install Project Dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: ⏫ Auto bump version
+        id: version-bump
+        uses: 'phips28/gh-action-bump-version@v10.0.0'
+        with:
+          minor-wording: 'feat'
+          major-wording: 'breaking change'
+          patch-wording: 'fix'
+          commit-message: 'CI: bumps version to {{version}} [skip ci]'
+          skip-tag: 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: ⏫ Update package.json version
+        run: yarn version --new-version "${{ steps.bump_version.outputs.new_tag }}"
+
+      - name: 📤 Publish
+        run: yarn publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.PACKAGE_TOKEN }}
