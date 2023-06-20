@@ -1,0 +1,30 @@
+{
+  "placeWizard": {
+    "positionStep": {
+      "title": "Choisissez un emplacement"
+    },
+    "titleStep": {
+      "title": "Ajoutez un titre",
+      "form.title": "Titre"
+    },
+    "descriptionStep": {
+      "title": "Ajoutez une description",
+      "form.description": "Description"
+    },
+    "photosStep": {
+      "title": "Ajoutez une ou plusieurs photos",
+      "selectPhotos": "Sélectionnez des photos"
+    },
+    "categoriesStep": {
+      "title": "Ajoutez une ou plusieurs catégories"
+    },
+    "servicesStep": {
+      "title": "Ajouter un ou plusieurs services"
+    }
+  },
+  "placeDetail": {
+    "description": "Description",
+    "services": "Services",
+    "comments": "Commentaires"
+  }
+}

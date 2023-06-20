@@ -1,0 +1,55 @@
+{
+  "screens": {
+    "main": {
+      "title": "Réglages",
+      "sections": {
+        "account": {
+          "title": "Utilisateur",
+          "changePassword": "Modifier mot de passe",
+          "logout": "Se déconnecter"
+        },
+        "general": {
+          "title": "Général",
+          "darkmode": {
+            "title": "Mode sombre",
+            "devicePreference": "Préférence de l'appareil",
+            "dark": "Sombre",
+            "light": "Clair"
+          },
+          "biometricAuth": "Authentification biométrique",
+          "language": {
+            "title": "Langue",
+            "devicePreference": "Préférence de l'appareil",
+            "en": "English",
+            "fr": "Francais"
+          },
+          "invitation.title": "Générer un code d'invitation"
+        },
+        "support": {
+          "title": "Soutien",
+          "subTitle": "Hey 🤙 ! Je travaille seul sur cette application. Si vous voulez y contribuer, faites un tour sur les items suivants ⬇️",
+          "coffee": "Payer un petit café",
+          "translate": "Traduire l'application",
+          "sendMessage": "Envoyer un message"
+        },
+        "tech": {
+          "title": "Tech",
+          "version": "Version",
+          "releaseNote": "Note de release"
+        }
+      }
+    },
+    "changePassword.title": "Mot de passe",
+    "generateInvitationCode": {
+      "title": "Invitation",
+      "subtitle": "Vous voulez inviter une personne de <strong>confiance</strong> à rejoindre la communauté ? Vous êtes au bon endroit 😇 !",
+      "subtitle2": "Le code est valide pendant <strong>15 minutes</strong>. Passé ce délai, il faudra en regénérer un nouveau (max <strong>5</strong> par jour).",
+      "shareMessage": "Hello, je t'invite à rejoindre l'application Van Companion. Un code est nécessaire à l'inscription, le voici : {{value}}. Fais vite, il n'est valable que 15 minutes !",
+      "alert.dataLoss.message": "Le code ne sera plus accessible. Voulez vous continuer ?"
+    },
+    "sendMessage": {
+      "title": "Message",
+      "subtitle": "Une <strong>question</strong> ou une <strong>remarque</strong> ? N'hésitez pas à me contacter à l'adresse suivante :"
+    }
+  }
+}

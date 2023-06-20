@@ -1,0 +1,56 @@
+{
+  "welcome": "Bienvenue !",
+  "welcomeText": "Vous pouvez vous connecter si vous possédez un compte. Dans le cas contraire, vous devez recevoir une invitation d'un membre 🤞",
+  "login": "Se connecter",
+  "register": "S'inscrire",
+
+  "alreadyRegistered": "Déjà enregistré ?",
+  "registerWizard": {
+    "invalidCode": "Le code saisi est invalide",
+    "introductionStep": {
+      "title": "Entrez votre code d'invitation",
+      "subtitle": "Vous avez été invité à rejoindre l'application, bravo 😎 ! Inscrivez-vous pour y accéder rapidement"
+    },
+    "firstnameStep": {
+      "title": "Entrez votre prénom",
+      "form.firstname": "Prénom"
+    },
+    "lastnameStep": {
+      "title": "Entrez votre nom",
+      "form.lastname": "Nom"
+    },
+    "emailStep": {
+      "title": "Entrez votre adresse email",
+      "form.email": "Email"
+    },
+    "passwordStep": {
+      "title": "Choisissez votre mot de passe",
+      "subtitle": "Le mot de passe doit faire entre 8 et 32 charactères, avec au minimum 1 majuscule et 1 caractère spécial",
+      "form": {
+        "password1": "Mot de passe",
+        "password2": "Confirmation mot de passe"
+      }
+    }
+  },
+  "firstOnboarding": {
+    "welcomeStep": {
+      "title": "Bienvenue sur Van Companion !",
+      "subtitle": "Une application communautaire conçue pour découvrir et partager des lieux incroyables"
+    },
+    "invitationStep": {
+      "title": "Une communautée auto-filtrante",
+      "subtitle": "Pour accéder à l'application, vous avez besoin d'une invitation de la part d'un membre existant"
+    },
+    "environnementStep": {
+      "title": "Respect des lieux et de la nature !",
+      "subtitle": "Veillez à respecter les lieux partagés. Il est primordial de préserver la beauté des endroits que vous visiterez"
+    },
+    "ratingStep": {
+      "title": "Recommandations",
+      "subtitle": "Profitez des évaluations et des commentaires des autres membres pour trouver les endroits les mieux notés et les plus adaptés à vos préférences de voyage"
+    },
+    "luggageStep": {
+      "title": "Préparez vos bagages !"
+    }
+  }
+}

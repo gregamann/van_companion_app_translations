@@ -1,0 +1,55 @@
+{
+  "screens": {
+    "main": {
+      "title": "Settings",
+      "sections": {
+        "account": {
+          "title": "User",
+          "changePassword": "Change password",
+          "logout": "Logout"
+        },
+        "general": {
+          "title": "General",
+          "darkmode": {
+            "title": "Dark mode",
+            "devicePreference": "Device preference",
+            "dark": "Dark",
+            "light": "Light"
+          },
+          "biometricAuth": "Biometric authentication",
+          "language": {
+            "title": "Language",
+            "devicePreference": "Device preference",
+            "en": "English",
+            "fr": "Francais"
+          },
+          "invitation.title": "Generate an invite code"
+        },
+        "support": {
+          "title": "Support",
+          "subTitle": "Hey 🤙 ! I'm working alone on this app. If you want to contribute, take a look at the following items ⬇️",
+          "coffee": "Buy a little coffee",
+          "translate": "Translate the app",
+          "sendMessage": "Send a message"
+        },
+        "tech": {
+          "title": "Tech",
+          "version": "Version",
+          "releaseNote": "Release note"
+        }
+      }
+    },
+    "changePassword.title": "Password",
+    "generateInvitationCode": {
+      "title": "Invitation",
+      "subtitle": "Want to invite a <strong>trustworthy</strong> person to join the community? You've come to the right place 😇!",
+      "subtitle2": "The code is valid for <strong>15 minutes</strong>. After this time, a new one must be generated (max <strong>5</strong> per day).",
+      "shareMessage": "Hello, I invite you to join the Van Companion app. A code is required for registration, here it is: {{value}}. Hurry, it's only valid for 15 minutes!",
+      "alert.dataLoss.message": "Code will be lost. Do you want to continue?"
+    },
+    "sendMessage": {
+      "title": "Message",
+      "subtitle": "A <strong>question</strong> or a <strong>remark</strong>? Feel free to contact me at the following address:"
+    }
+  }
+}

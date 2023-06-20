@@ -1,0 +1,41 @@
+{
+  "no": "Non",
+  "yes": "Oui",
+  "add": "Ajouter",
+  "update": "Modifier",
+  "delete": "Supprimer",
+  "cancel": "Annuler",
+  "continue": "Continuer",
+  "lastname": "Nom",
+  "firstname": "Prénom",
+  "email": "Email",
+  "currentPassword": "Mot de passe actuel",
+  "password": "Mot de passe",
+  "passwordConfirmation": "Confirmation mot de passe",
+  "save": "Enregistrer",
+  "next": "Suivant",
+  "confirm": "Valider",
+  "noData": "Aucune donnée",
+  "back": "Retour",
+  "createdAt": "Création : {{value}}",
+  "moreInfo": "En savoir plus",
+  "understood": "J'ai compris",
+  "letsGo": "C'est parti !",
+  "generate": "Générer",
+  "warning": "Attention",
+  "skip": "Passer",
+  "alert": {
+    "dataLoss.message": "Les modifications seront perdues. Voulez vous continuer ?"
+  },
+  "errors": {
+    "passwordsNoMatch": "Les mots de passe de correspondent pas",
+    "minPhotos": "Au moins {{count}} photo est requise",
+    "minPhotos_plural": "Au moins {{count}} photos sont requises",
+    "default": "Une erreur est survenue"
+  },
+  "success": {
+    "creation": "Création réussie",
+    "update": "Modification réussie",
+    "delete": "Suppression réussie"
+  }
+}

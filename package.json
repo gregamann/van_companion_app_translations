@@ -1,0 +1,18 @@
+{
+  "name": "@gregamann/van_companion_app_translations",
+  "version": "0.0.1",
+  "private": false,
+  "scripts": {
+    "build": "rm -rf lib && tsc",
+    "prettier": "prettier --check \"./src/**/*.{ts,tsx,js,jsx,json,yaml,yml}\"",
+    "type-check": "tsc  --noemit",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "5.37.0",
+    "@typescript-eslint/parser": "5.37.0",
+    "eslint": "8.19.0",
+    "prettier": "2.8.8",
+    "typescript": "4.8.4"
+  }
+}

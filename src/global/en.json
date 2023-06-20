@@ -1,0 +1,41 @@
+{
+  "no": "No",
+  "yes": "Yes",
+  "add": "Add",
+  "update": "Update",
+  "delete": "Delete",
+  "cancel": "Cancel",
+  "continue": "Continue",
+  "lastname": "Lastname",
+  "firstname": "Firstname",
+  "email": "Email",
+  "currentPassword": "Current password",
+  "password": "Password",
+  "passwordConfirmation": "Password confirmation",
+  "save": "Save",
+  "next": "Next",
+  "confirm": "Confirm",
+  "noData": "No data",
+  "back": "Back",
+  "createdAt": "Creation: {{value}}",
+  "moreInfo": "Find out more",
+  "understood": "I understood",
+  "letsGo": "Let's go!",
+  "generate": "Generate",
+  "warning": "Warning",
+  "skip": "Skip",
+  "alert": {
+    "dataLoss.message": "Changes will be lost. Do you want to continue?"
+  },
+  "errors": {
+    "passwordsNoMatch": "The passwords do not match",
+    "minPhotos": "At least {{count}} photo is required",
+    "minPhotos_plural": "At least {{count}} photos are required",
+    "default": "An error has occurred"
+  },
+  "success": {
+    "creation": "Successful creation",
+    "update": "Successful update",
+    "delete": "Successful delete"
+  }
+}

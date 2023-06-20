@@ -1,0 +1,28 @@
+name: Linters
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  lint:
+    name: Linters
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📦 Checkout project repo
+        uses: actions/checkout@v3
+
+      - name: 📦 Install Project Dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: 🏃‍♂️ Run Prettier
+        run: yarn run prettier
+
+      - name: 🏃‍♂️ Run ESLint
+        run: yarn run lint
+
+      - name: 🏃‍♂️ Run TypeCheck
+        run: yarn run type-check
