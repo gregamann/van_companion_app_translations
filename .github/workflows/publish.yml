@@ -44,7 +44,10 @@ jobs:
       - name: ⏫ Update package.json version
         run: yarn version --new-version "${{ steps.bump_version.outputs.new_tag }}"
 
-      - name: 📤 Publish
+      - name: 🪛 Build
+        run: yarn build
+
+      - name: 🚀 Publish
         run: yarn publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.PACKAGE_TOKEN }}
