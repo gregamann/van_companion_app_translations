@@ -1,4 +1,12 @@
-export * from './global'
-export * from './nodes'
+import global from './global'
+import nodes from './nodes'
 
-export const availableLanguages = ['en', 'fr']
+const availableLanguages = ['en', 'fr']
+
+export default {
+  availableLanguages,
+  translations: {
+    global,
+    nodes,
+  },
+}
