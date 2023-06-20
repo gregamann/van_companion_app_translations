@@ -1,7 +1,7 @@
+import { Translation } from '../types'
 import en from './en.json'
 import fr from './fr.json'
 
-export default {
-  fr,
-  en,
-}
+const translation: Translation = { fr, en }
+
+export default translation
