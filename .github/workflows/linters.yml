@@ -24,5 +24,8 @@ jobs:
       - name: 🏃‍♂️ Run ESLint
         run: yarn run lint
 
+      - name: 🏃‍♂️ Run TranslationsLint
+        run: yarn translations:lint
+
       - name: 🏃‍♂️ Run TypeCheck
         run: yarn run type-check

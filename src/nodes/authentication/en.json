@@ -1,55 +1,55 @@
 {
-  "welcome": "Welcome!",
-  "welcomeText": "You can login if you have an account. If not, you must receive an invitation from a member 🤞",
-  "login": "Login",
-  "register": "Register",
   "alreadyRegistered": "Already registered?",
-  "registerWizard": {
-    "invalidCode": "Le code saisi est invalide",
-    "introductionStep": {
-      "title": "Enter your invitation code",
-      "subtitle": "You have been invited to join the application, well done 😎! Sign up for quick access"
-    },
-    "firstnameStep": {
-      "title": "Enter your firstname",
-      "form.firstname": "Firstname"
-    },
-    "lastnameStep": {
-      "title": "Enter your lastname",
-      "form.lastname": "Lastname"
-    },
-    "emailStep": {
-      "title": "Enter your email address",
-      "form.email": "Email"
-    },
-    "passwordStep": {
-      "title": "Choose your password",
-      "subtitle": "Your password must be between 8-32 characters long, with at least 1 number and 1 special character",
-      "form": {
-        "password1": "Password",
-        "password2": "Password confirmation"
-      }
-    }
-  },
   "firstOnboarding": {
-    "welcomeStep": {
-      "title": "Welcome to Van Companion!",
-      "subtitle": "A community application designed to discover and share incredible places."
+    "environnementStep": {
+      "subtitle": "Please ensure to respect the shared places. It is essential to preserve the beauty of the places you will visit.",
+      "title": "Respect for places and nature!"
     },
     "invitationStep": {
-      "title": "A self-filtering community",
-      "subtitle": "To access the application, you need an invitation from an existing member."
-    },
-    "environnementStep": {
-      "title": "Respect for places and nature!",
-      "subtitle": "Please ensure to respect the shared places. It is essential to preserve the beauty of the places you will visit."
-    },
-    "ratingStep": {
-      "title": "Recommendations",
-      "subtitle": "Take advantage of ratings and comments from other members to find the highest-rated places and those that best suit your travel preferences."
+      "subtitle": "To access the application, you need an invitation from an existing member.",
+      "title": "A self-filtering community"
     },
     "luggageStep": {
       "title": "Prepare your luggage!"
+    },
+    "ratingStep": {
+      "subtitle": "Take advantage of ratings and comments from other members to find the highest-rated places and those that best suit your travel preferences.",
+      "title": "Recommendations"
+    },
+    "welcomeStep": {
+      "subtitle": "A community application designed to discover and share incredible places.",
+      "title": "Welcome to Van Companion!"
     }
-  }
+  },
+  "login": "Login",
+  "register": "Register",
+  "registerWizard": {
+    "emailStep": {
+      "form.email": "Email",
+      "title": "Enter your email address"
+    },
+    "firstnameStep": {
+      "form.firstname": "Firstname",
+      "title": "Enter your firstname"
+    },
+    "introductionStep": {
+      "subtitle": "You have been invited to join the application, well done 😎! Sign up for quick access",
+      "title": "Enter your invitation code"
+    },
+    "invalidCode": "Le code saisi est invalide",
+    "lastnameStep": {
+      "form.lastname": "Lastname",
+      "title": "Enter your lastname"
+    },
+    "passwordStep": {
+      "form": {
+        "password1": "Password",
+        "password2": "Password confirmation"
+      },
+      "subtitle": "Your password must be between 8-32 characters long, with at least 1 number and 1 special character",
+      "title": "Choose your password"
+    }
+  },
+  "welcome": "Welcome!",
+  "welcomeText": "You can login if you have an account. If not, you must receive an invitation from a member 🤞"
 }
