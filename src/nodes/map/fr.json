@@ -4,6 +4,17 @@
     "description": "Description",
     "services": "Services"
   },
+  "placeList": {
+    "filters": {
+      "categories": "Catégories",
+      "language": {
+        "all": "Toutes les langues",
+        "en": "Anglais",
+        "fr": "Francais"
+      },
+      "services": "Services"
+    }
+  },
   "placeWizard": {
     "categoriesStep": {
       "title": "Ajoutez une ou plusieurs catégories"

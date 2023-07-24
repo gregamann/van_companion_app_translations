@@ -3,6 +3,7 @@
   "alert": {
     "dataLoss.message": "Changes will be lost. Do you want to continue?"
   },
+  "apply": "Apply",
   "back": "Back",
   "cancel": "Cancel",
   "confirm": "Confirm",
@@ -16,6 +17,7 @@
     "minPhotos": "At least {count} photos are required",
     "passwordsNoMatch": "The passwords do not match"
   },
+  "filters": "Filters",
   "firstname": "Firstname",
   "generate": "Generate",
   "lastname": "Lastname",
