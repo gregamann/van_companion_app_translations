@@ -7,6 +7,9 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  linters:
+    uses: ./.github/workflows/linters.yml
+
   publish:
     name: Publish package
     runs-on: ubuntu-latest
@@ -40,9 +43,6 @@ jobs:
           skip-tag: 'true'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: ⏫ Update package.json version
-        run: yarn version --new-version "${{ steps.bump_version.outputs.new_tag }}"
 
       - name: 🪛 Build
         run: yarn build
