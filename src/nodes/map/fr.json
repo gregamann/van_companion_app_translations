@@ -8,9 +8,11 @@
     "filters": {
       "categories": "Catégories",
       "language": {
-        "all": "Toutes les langues",
-        "en": "Anglais",
-        "fr": "Francais"
+        "title": "Langues",
+        "values": {
+          "en": "Anglais",
+          "fr": "Francais"
+        }
       },
       "services": "Services"
     }
