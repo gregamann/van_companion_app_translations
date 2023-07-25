@@ -23,7 +23,7 @@ jobs:
       - name: 📦 Checkout project repo
         uses: actions/checkout@v3
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_CI_TOKEN }}
 
       - name: 📦 Create .npmrc file
         uses: actions/setup-node@v3
@@ -46,7 +46,7 @@ jobs:
           commit-message: 'CI: bumps version to {{version}} [skip ci]'
           skip-tag: 'true'
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_CI_TOKEN }}
 
       - name: 🪛 Build
         run: yarn build
