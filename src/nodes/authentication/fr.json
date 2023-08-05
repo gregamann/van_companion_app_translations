@@ -51,5 +51,12 @@
     }
   },
   "welcome": "Bienvenue !",
-  "welcomeText": "Vous pouvez vous connecter si vous possédez un compte. Dans le cas contraire, vous devez recevoir une invitation d'un membre 🤞"
+  "welcomeText": "Vous pouvez vous connecter si vous possédez un compte. Dans le cas contraire, vous devez recevoir une invitation d'un membre 🤞",
+  "verifyEmail": {
+    "title": "Vérification email",
+    "subtitle": "Votre compte n'est pas encore activé. Courage, c'est la dernière étape avant de pouvoir profiter pleinement de l'application !",
+    "body": "Un email de confirmation vous a été envoyé. Rendez-vous dans votre boite mail (vérifiez bien dans vos <strong>courriers indésirables</strong> 😇) et cliquez sur le lien qu'il contient.",
+    "suggestion": "S'il reste introuvable, vous pouvez rechercher l'expediteur : <strong>{senderEmail}</strong> ou cliquer sur le bouton <strong>{resend}</strong> pour renvoyer un email de confirmation.",
+    "resend": "Renvoyer"
+  }
 }
