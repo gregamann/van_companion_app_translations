@@ -50,13 +50,13 @@
       "title": "Choose your password"
     }
   },
-  "welcome": "Welcome!",
-  "welcomeText": "You can login if you have an account. If not, you must receive an invitation from a member 🤞",
   "verifyEmail": {
-    "title": "Email Verification",
-    "subtitle": "Your account is not yet activated. Hang in there, it's the final step before being able to fully enjoy the application!",
     "body": "A confirmation email has been sent to you. Please check your mailbox (don't forget to look in your <strong>spam folder</strong> 😇) and click on the link inside.",
+    "resend": "Resend",
+    "subtitle": "Your account is not yet activated. Hang in there, it's the final step before being able to fully enjoy the application!",
     "suggestion": "If you can't find it, you can search for the sender: <strong>{senderEmail}</strong> or click the <strong>{resend}</strong> button to resend a confirmation email.",
-    "resend": "Resend"
-  }
+    "title": "Email Verification"
+  },
+  "welcome": "Welcome!",
+  "welcomeText": "You can login if you have an account. If not, you must receive an invitation from a member 🤞"
 }
